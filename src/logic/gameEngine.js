@@ -1,0 +1,1 @@
+export const moveByRoll=(position,roll)=>position+roll>100?position:position+roll;export const resolveSquare=(position)=>({position:position});export const applyCard=(position,move)=>Math.max(1,Math.min(100,position+move));export const randomItem=(items)=>items[Math.floor(Math.random()*items.length)];
